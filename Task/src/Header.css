@@ -1,0 +1,40 @@
+#para {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+}
+
+#para1 img {
+  width: 100px; /* Adjust logo size as needed */
+  height: auto;
+}
+
+#para2 {
+  display: flex;
+  gap: 20px;
+}
+
+#para2 h4 {
+  margin: 0;
+  font-size: 1em;
+  color: #666;
+  cursor: pointer;
+}
+
+#para2 h4:hover {
+  color: #000;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #para {
+    flex-direction: column;
+    text-align: center;
+  }
+  #para2 {
+    margin-top: 10px;
+  }
+}
